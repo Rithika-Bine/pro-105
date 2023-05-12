@@ -8,7 +8,7 @@ images = []
 for files in os.listdir(path):
     name , ext = os.path.splitext(files)
     
-    if ext in ['.gif' , '.png' , '.jpg','.jpeg','.jfif']:
+    if ext in ['.gif' , '.png' , '.jpg','.jpeg','.jfif' , '.wbep']:
         file_name = path + "/"+ files
         print(file_name)
 
